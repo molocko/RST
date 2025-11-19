@@ -8,6 +8,8 @@ A small and simple header-only C++ library that provides more convenient string 
 
 ## How to use
 
+{ **`namespace RST`** }
+
 ### firstReplace
 `bool firstReplace(std::string* text, const std::string& what, const std::string& to)`  
 Replaces the first occurrence of `what` with `to`.
